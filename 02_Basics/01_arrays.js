@@ -27,3 +27,4 @@ console.log(newarr1);
 
 const newarr2 = array.splice(1,3)
 console.log(newarr2);
+  
