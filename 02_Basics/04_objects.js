@@ -27,9 +27,24 @@ const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
 
 const user = [
-    {},
-    {},
-    {}
+    {
+        id: 1,
+        email:"s@gmail.com"
+    },
+    {
+        id: 2,
+        email:"h@gmail.com"
+    },
+    {
+        id: 3,
+        email:"t@gmail.com"
+    },
 ]
 
 user[1].email
+// console.log(tinderuser);
+console.log(Object.keys(tinderuser));
+console.log(Object.values(tinderuser));
+console.log(Object.entries(tinderuser));
+
+console.log(tinderuser.hasOwnProperty('isLoggedIn'));
